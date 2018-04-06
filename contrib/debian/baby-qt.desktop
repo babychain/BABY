@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=BABY
+Comment=BABY P2P Cryptocurrency
+Comment[fr]=BABY, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=BABY, eşten eşe kriptografik sanal para birimi
+Exec=baby-qt %u
+Terminal=false
+Type=Application
+Icon=baby128
+MimeType=x-scheme-handler/baby;
+Categories=Office;Finance;

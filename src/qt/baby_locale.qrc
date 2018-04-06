@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/baby_bg.qm</file>
+        <file alias="ca">locale/baby_ca.qm</file>
+        <file alias="cs">locale/baby_cs.qm</file>
+        <file alias="da">locale/baby_da.qm</file>
+        <file alias="de">locale/baby_de.qm</file>
+        <file alias="en">locale/baby_en.qm</file>
+        <file alias="en_US">locale/baby_en_US.qm</file>
+        <file alias="es">locale/baby_es.qm</file>
+        <file alias="fi">locale/baby_fi.qm</file>
+        <file alias="fr_FR">locale/baby_fr_FR.qm</file>
+        <file alias="it">locale/baby_it.qm</file>
+        <file alias="ja">locale/baby_ja.qm</file>
+        <file alias="ko_KR">locale/baby_ko_KR.qm</file>
+        <file alias="nl">locale/baby_nl.qm</file>
+        <file alias="pl">locale/baby_pl.qm</file>
+        <file alias="pt">locale/baby_pt.qm</file>
+        <file alias="pt_BR">locale/baby_pt_BR.qm</file>
+        <file alias="ro_RO">locale/baby_ro_RO.qm</file>
+        <file alias="ru">locale/baby_ru.qm</file>
+        <file alias="sk">locale/baby_sk.qm</file>
+        <file alias="sv">locale/baby_sv.qm</file>
+        <file alias="tr">locale/baby_tr.qm</file>
+        <file alias="uk">locale/baby_uk.qm</file>
+        <file alias="zh_CN">locale/baby_zh_CN.qm</file>
+        <file alias="zh_TW">locale/baby_zh_TW.qm</file>
+    </qresource>
+</RCC>

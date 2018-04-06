@@ -1,0 +1,26 @@
+[Unit]
+Description=BABY's distributed currency daemon
+After=network.target
+
+[Service]
+User=baby
+Group=baby
+
+Type=forking
+PIDFile=/var/lib/babyd/babyd.pid
+
+ExecStart=/usr/bin/babyd -daemon -pid=/var/lib/babyd/babyd.pid \
+          -conf=/etc/baby/baby.conf -datadir=/var/lib/babyd
+
+ExecStop=-/usr/bin/baby-cli -conf=/etc/baby/baby.conf \
+         -datadir=/var/lib/babyd stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target
